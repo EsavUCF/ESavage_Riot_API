@@ -8,3 +8,13 @@ C:\Users\ER247979\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESav
 C:\Users\ER247979\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.csproj.CoreCompileInputs.cache
 C:\Users\ER247979\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.exe
 C:\Users\ER247979\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.pdb
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\bin\Debug\RiotAPI_ESavage.exe.config
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\bin\Debug\RiotAPI_ESavage.exe
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\bin\Debug\RiotAPI_ESavage.pdb
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.csproj.AssemblyReference.cache
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.Properties.Resources.resources
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.Form1.resources
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.csproj.GenerateResource.cache
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.csproj.CoreCompileInputs.cache
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.exe
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.pdb
