@@ -18,3 +18,7 @@ C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage
 C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.csproj.CoreCompileInputs.cache
 C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.exe
 C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.pdb
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\bin\Debug\Camille.dll
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\cire3\Documents\GitHub\ESavage_Riot_API\RiotAPI_ESavage\RiotAPI_ESavage\obj\Debug\RiotAPI_ESavage.csproj.CopyComplete
