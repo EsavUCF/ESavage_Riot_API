@@ -42,6 +42,7 @@ namespace RiotAPI_ESavage
             resources.ApplyResources(this.GetAPIData, "GetAPIData");
             this.GetAPIData.Name = "GetAPIData";
             this.GetAPIData.UseVisualStyleBackColor = true;
+            this.GetAPIData.Click += new System.EventHandler(this.GetAPIData_Click);
             // 
             // dataGridView1
             // 

@@ -16,5 +16,10 @@ namespace RiotAPI_ESavage
         {
             InitializeComponent();
         }
+
+        private void GetAPIData_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
