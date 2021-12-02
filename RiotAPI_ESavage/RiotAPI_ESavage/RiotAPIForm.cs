@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using System.Net.Http;
 using System.Windows.Forms;
 
 namespace RiotAPI_ESavage
@@ -17,7 +12,15 @@ namespace RiotAPI_ESavage
             InitializeComponent();
         }
 
-        private void GetAPIData_Click(object sender, EventArgs e)
+        public object apiResponse { get; private set; }
+
+        private async void GetAPIData_Click(object sender, EventArgs e)
+        {
+            var response = await SummonerV4.GetALL();
+            apiResponse = response;//.text  = response;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

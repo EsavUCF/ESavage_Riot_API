@@ -1,54 +1,41 @@
-﻿//using MingweiSamuel.Camille.SummonerV4;
-//using Newtonsoft.Json;
-//using System;
-//using System.Threading.Tasks;
-//using System.Web;
-//
-//namespace RiotAPI_ESavage
-//{
-//    class SummonerV4
-//    {
-//        [JsonProperty("id")]
-//        public string ID { get; set; }
-//
-//        [JsonProperty("accountId")]
-//        public string AccountID { get; set; }
-//
-//        [JsonProperty("puuid")]
-//        public string PuuID { get; set; }
-//
-//        [JsonProperty("name")]
-//        public string Name { get; set; }
-//
-//        [JsonProperty("profileIconId")]
-//        public int ProfileIconId { get; set; }
-//
-//        [JsonProperty("revisionDate")]
-//        public long RevisionDate { get; set; }
-//
-//        [JsonProperty("summonerLevel")]
-//        public long SummerLevel { get; set; }
-//    }
-//    public Summoner GetSummonerByName(string summonerName)
-//    {
-//        var uriBuilder = new UriBuilder($"{ApiBaseAddress}/by-name/{summonerName}");
-//        var query = HttpUtility.ParseQueryString(uriBuilder.Query);
-//        query["api_key"] = Api.ApiKey;
-//        uriBuilder.Query = query.ToString();
-//        string requestUri = uriBuilder.ToString();
-//
-//
-//        var response = Api.Client.GetAsync(requestUri).Result;
-//        if (response.IsSuccessStatusCode == false)
-//        {
-//            throw new Exception($"Request Failed. Reponse:{response.StatusCode}");
-//        }
-//        string jsonResponse = response.Content.ReadAsStringAsync().Result;
-//        return JsonConvert.DeserializeObject<Summoner>(jsonResponse);
-//        
-//    }
-//
-//    public async Task<Summoner> GetSummonerByNameAsync(string summonerName);
-//
-//}
+﻿using MingweiSamuel.Camille.SummonerV4;
+using MingweiSamuel.Camille;
+using Newtonsoft.Json;
+using System.Net.Http;
+
+using System;
+using System.Threading.Tasks;
+using System.Web;
+
+namespace RiotAPI_ESavage
+{
+    public static class SummonerV4
+    {
+
+        private static readonly string RootURL = "https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/";
+        public static async Task<string> GetALL()
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                using (HttpResponseMessage res = await client.GetAsync(RootURL + "/binti?api_key=RGAPI-27df923e-29c5-42ac-99af-3c247cca2c3d "))
+                {
+                    using (HttpContent content = res.Content)
+                    {
+                        string data = await content.ReadAsStringAsync();
+                        if(data !=null)
+                        {
+                            return data;
+                        }
+                    }
+
+
+                }
+
+                
+            }
+
+            return string.Empty;
+        }
+    }
+}
 
