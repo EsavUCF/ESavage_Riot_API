@@ -15,7 +15,7 @@ namespace RiotAPI_ESavage
         [STAThread]
         static void Main(string[] args)
         {
-            var riotApi = RiotApi.NewInstance("RGAPI-8b51a20f-e0b5-416f-8dfb-67e49ff51275");
+            var riotApi = RiotApi.NewInstance("RGAPI-e43146a0-6c69-4429-85d5-12749ea4078c");
             var summoner = riotApi.SummonerV4.GetBySummonerName(Region.NA, "PKUltra");
             Console.WriteLine($"Summoner: {summoner.Name} Level:{summoner.SummonerLevel}");
 
