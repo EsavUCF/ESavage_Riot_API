@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GetAPIData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="GetAPIData.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -143,8 +147,35 @@
   <data name="&gt;&gt;GetAPIData.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="idDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="accountIdDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>accountId</value>
+  </data>
+  <data name="puuidDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>puuid</value>
+  </data>
+  <data name="nameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="profileIconIdDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>profileIconId</value>
+  </data>
+  <data name="revisionDateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>revisionDate</value>
+  </data>
+  <data name="summonerLevelDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>summonerLevel</value>
+  </data>
+  <metadata name="summonerV4BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>358, 17</value>
+  </metadata>
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 58</value>
+  </data>
+  <data name="dataGridView1.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
     <value>403, 473</value>
@@ -188,7 +219,6 @@
   <data name="UsernameBar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="UsernameBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -216,6 +246,12 @@
   <data name="&gt;&gt;UsernameBar.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="form1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="programBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -233,6 +269,66 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RiotAPI_Eric</value>
+  </data>
+  <data name="&gt;&gt;form1BindingSource.Name" xml:space="preserve">
+    <value>form1BindingSource</value>
+  </data>
+  <data name="&gt;&gt;form1BindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;programBindingSource.Name" xml:space="preserve">
+    <value>programBindingSource</value>
+  </data>
+  <data name="&gt;&gt;programBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;summonerV4BindingSource.Name" xml:space="preserve">
+    <value>summonerV4BindingSource</value>
+  </data>
+  <data name="&gt;&gt;summonerV4BindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;idDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>idDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;idDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountIdDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>accountIdDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;accountIdDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;puuidDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>puuidDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;puuidDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>nameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;nameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;profileIconIdDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>profileIconIdDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;profileIconIdDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;revisionDateDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>revisionDateDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;revisionDateDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;summonerLevelDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>summonerLevelDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;summonerLevelDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

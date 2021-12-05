@@ -110,6 +110,11 @@
       <DependentUpon>RiotAPIForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\RiotAPI_ESavage.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\RiotAPI_ESavage.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\SummonerV4.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

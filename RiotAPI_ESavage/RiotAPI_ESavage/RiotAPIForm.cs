@@ -3,7 +3,10 @@ using System.IO;
 using System.Net;
 using Newtonsoft.Json;
 using System.Net.Http;
+using MingweiSamuel.Camille;
+using MingweiSamuel.Camille.SummonerV4;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace RiotAPI_ESavage
 {
@@ -17,17 +20,18 @@ namespace RiotAPI_ESavage
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            WebClient client = new WebClient();
-            string json = client.DownloadString("https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/Vine?api_key=RGAPI-b3258901-3962-4724-936d-e9b1878043dd");
-            MessageBox.Show(json);
+            
         }
 
         public object apiResponse { get; private set; }
 
-        private async void GetAPIData_Click(object sender, EventArgs e)   //Move load into into click to give windowed response. 
+        private void GetAPIData_Click(object sender, EventArgs e)   //Move load into into click to give windowed response. 
         {
-            var response = await SummonerV4.GetALL();
-            apiResponse = response;//.text  = response;
+            WebClient client = new WebClient();
+            string json = client.DownloadString("https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/PKUltra?api_key=RGAPI-1714cac4-4d2b-4fcc-993c-e0859707d2d0");
+            SummonerV4 summoner = JsonConvert.DeserializeObject<SummonerV4>(json);
+            dataGridView1.DataSource = summoner;
+            // MessageBox.Show(json);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

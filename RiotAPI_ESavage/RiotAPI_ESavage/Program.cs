@@ -15,9 +15,7 @@ namespace RiotAPI_ESavage
         [STAThread]
         static void Main(string[] args)
         {
-            var riotApi = RiotApi.NewInstance("RGAPI-b3258901-3962-4724-936d-e9b1878043dd");
-            var summoner = riotApi.SummonerV4.GetBySummonerName(Region.NA, "ChickenMessiah");
-            Console.WriteLine($"Summoner: {summoner.Name} Level:{summoner.SummonerLevel}");
+           
 
 
             Application.EnableVisualStyles();
