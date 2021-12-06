@@ -35,9 +35,7 @@ namespace RiotAPI_ESavage
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.UsernameBar = new System.Windows.Forms.Label();
-            this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.summonerV4BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.ClashV1Button = new System.Windows.Forms.Button();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accountIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.puuidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,10 +43,13 @@ namespace RiotAPI_ESavage
             this.profileIconIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.revisionDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.summonerLevelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.summonerV4BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.summonerV4BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.summonerV4BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // GetAPIData
@@ -85,17 +86,12 @@ namespace RiotAPI_ESavage
             resources.ApplyResources(this.UsernameBar, "UsernameBar");
             this.UsernameBar.Name = "UsernameBar";
             // 
-            // form1BindingSource
+            // ClashV1Button
             // 
-            this.form1BindingSource.DataSource = typeof(RiotAPI_ESavage.Form1);
-            // 
-            // programBindingSource
-            // 
-            this.programBindingSource.DataSource = typeof(RiotAPI_ESavage.Program);
-            // 
-            // summonerV4BindingSource
-            // 
-            this.summonerV4BindingSource.DataSource = typeof(RiotAPI_ESavage.SummonerV4);
+            resources.ApplyResources(this.ClashV1Button, "ClashV1Button");
+            this.ClashV1Button.Name = "ClashV1Button";
+            this.ClashV1Button.UseVisualStyleBackColor = true;
+            this.ClashV1Button.Click += new System.EventHandler(this.ClashV1Button_Click);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -139,10 +135,23 @@ namespace RiotAPI_ESavage
             resources.ApplyResources(this.summonerLevelDataGridViewTextBoxColumn, "summonerLevelDataGridViewTextBoxColumn");
             this.summonerLevelDataGridViewTextBoxColumn.Name = "summonerLevelDataGridViewTextBoxColumn";
             // 
+            // summonerV4BindingSource
+            // 
+            this.summonerV4BindingSource.DataSource = typeof(RiotAPI_ESavage.SummonerV4);
+            // 
+            // form1BindingSource
+            // 
+            this.form1BindingSource.DataSource = typeof(RiotAPI_ESavage.Form1);
+            // 
+            // programBindingSource
+            // 
+            this.programBindingSource.DataSource = typeof(RiotAPI_ESavage.Program);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ClashV1Button);
             this.Controls.Add(this.UsernameBar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
@@ -152,9 +161,9 @@ namespace RiotAPI_ESavage
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.summonerV4BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.summonerV4BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,6 +175,9 @@ namespace RiotAPI_ESavage
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label UsernameBar;
+        private System.Windows.Forms.BindingSource summonerV4BindingSource;
+        private System.Windows.Forms.BindingSource form1BindingSource;
+        private System.Windows.Forms.BindingSource programBindingSource;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn accountIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn puuidDataGridViewTextBoxColumn;
@@ -173,9 +185,7 @@ namespace RiotAPI_ESavage
         private System.Windows.Forms.DataGridViewTextBoxColumn profileIconIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn revisionDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn summonerLevelDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource summonerV4BindingSource;
-        private System.Windows.Forms.BindingSource form1BindingSource;
-        private System.Windows.Forms.BindingSource programBindingSource;
+        private System.Windows.Forms.Button ClashV1Button;
     }
 }
 

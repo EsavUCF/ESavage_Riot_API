@@ -145,7 +145,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GetAPIData.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="idDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>id</value>
@@ -193,10 +193,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 573</value>
+    <value>10, 598</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>403, 20</value>
@@ -214,7 +214,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="UsernameBar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -223,16 +223,16 @@
     <value>NoControl</value>
   </data>
   <data name="UsernameBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 557</value>
+    <value>138, 582</value>
   </data>
   <data name="UsernameBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 13</value>
+    <value>126, 13</value>
   </data>
   <data name="UsernameBar.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="UsernameBar.Text" xml:space="preserve">
-    <value>Enter Summoner Name</value>
+    <value>Enter URL  SummonerV4</value>
   </data>
   <data name="&gt;&gt;UsernameBar.Name" xml:space="preserve">
     <value>UsernameBar</value>
@@ -244,6 +244,33 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UsernameBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ClashV1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClashV1Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 537</value>
+  </data>
+  <data name="ClashV1Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 23</value>
+  </data>
+  <data name="ClashV1Button.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ClashV1Button.Text" xml:space="preserve">
+    <value>GET Champion Rotations</value>
+  </data>
+  <data name="&gt;&gt;ClashV1Button.Name" xml:space="preserve">
+    <value>ClashV1Button</value>
+  </data>
+  <data name="&gt;&gt;ClashV1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClashV1Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClashV1Button.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="form1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -264,29 +291,14 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>427, 620</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RiotAPI_Eric</value>
-  </data>
-  <data name="&gt;&gt;form1BindingSource.Name" xml:space="preserve">
-    <value>form1BindingSource</value>
-  </data>
-  <data name="&gt;&gt;form1BindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;programBindingSource.Name" xml:space="preserve">
-    <value>programBindingSource</value>
-  </data>
-  <data name="&gt;&gt;programBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;summonerV4BindingSource.Name" xml:space="preserve">
-    <value>summonerV4BindingSource</value>
-  </data>
-  <data name="&gt;&gt;summonerV4BindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;idDataGridViewTextBoxColumn.Name" xml:space="preserve">
     <value>idDataGridViewTextBoxColumn</value>
@@ -329,6 +341,24 @@
   </data>
   <data name="&gt;&gt;summonerLevelDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;summonerV4BindingSource.Name" xml:space="preserve">
+    <value>summonerV4BindingSource</value>
+  </data>
+  <data name="&gt;&gt;summonerV4BindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;form1BindingSource.Name" xml:space="preserve">
+    <value>form1BindingSource</value>
+  </data>
+  <data name="&gt;&gt;form1BindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;programBindingSource.Name" xml:space="preserve">
+    <value>programBindingSource</value>
+  </data>
+  <data name="&gt;&gt;programBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
