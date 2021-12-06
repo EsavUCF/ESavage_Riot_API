@@ -25,10 +25,10 @@ namespace RiotAPI_ESavage
 
        
 
-        private void GetAPIData_Click(object sender, EventArgs e)   //Move load into into click to give windowed response. 
+        private void GetAPIData_Click(object sender, EventArgs e)   
         {
             WebClient client = new WebClient();
-            string json = client.DownloadString(textBox1.Text);
+            string json = client.DownloadString("https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + textBox1.Text + "?api_key=" + textBox2.Text);
             SummonerV4 summoner = JsonConvert.DeserializeObject<SummonerV4>(json);
             string urlExtension = textBox1.Text.ToString();
             MessageBox.Show(summoner.name, "API Data Collected!", MessageBoxButtons.OKCancel);
@@ -42,14 +42,19 @@ namespace RiotAPI_ESavage
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //textBox1.Text = "";
+            
         }
 
-        private void ClashV1Button_Click(object sender, EventArgs e)
+        private void ClashV1Button_Click(object sender, EventArgs e) //orignally for clash but implemented Rotations. 
         {
             WebClient client = new WebClient();
-            string clashapi = client.DownloadString("https://na1.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=RGAPI-1714cac4-4d2b-4fcc-993c-e0859707d2d0");
+            string clashapi = client.DownloadString("https://na1.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=" + textBox2.Text);
             MessageBox.Show(clashapi);
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

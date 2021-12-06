@@ -33,9 +33,6 @@ namespace RiotAPI_ESavage
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.GetAPIData = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.UsernameBar = new System.Windows.Forms.Label();
-            this.ClashV1Button = new System.Windows.Forms.Button();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accountIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.puuidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,8 +41,13 @@ namespace RiotAPI_ESavage
             this.revisionDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.summonerLevelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.summonerV4BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.UsernameBar = new System.Windows.Forms.Label();
+            this.ClashV1Button = new System.Windows.Forms.Button();
             this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.summonerV4BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
@@ -74,24 +76,6 @@ namespace RiotAPI_ESavage
             this.dataGridView1.DataSource = this.summonerV4BindingSource;
             resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
-            // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // UsernameBar
-            // 
-            resources.ApplyResources(this.UsernameBar, "UsernameBar");
-            this.UsernameBar.Name = "UsernameBar";
-            // 
-            // ClashV1Button
-            // 
-            resources.ApplyResources(this.ClashV1Button, "ClashV1Button");
-            this.ClashV1Button.Name = "ClashV1Button";
-            this.ClashV1Button.UseVisualStyleBackColor = true;
-            this.ClashV1Button.Click += new System.EventHandler(this.ClashV1Button_Click);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -139,6 +123,24 @@ namespace RiotAPI_ESavage
             // 
             this.summonerV4BindingSource.DataSource = typeof(RiotAPI_ESavage.SummonerV4);
             // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // UsernameBar
+            // 
+            resources.ApplyResources(this.UsernameBar, "UsernameBar");
+            this.UsernameBar.Name = "UsernameBar";
+            // 
+            // ClashV1Button
+            // 
+            resources.ApplyResources(this.ClashV1Button, "ClashV1Button");
+            this.ClashV1Button.Name = "ClashV1Button";
+            this.ClashV1Button.UseVisualStyleBackColor = true;
+            this.ClashV1Button.Click += new System.EventHandler(this.ClashV1Button_Click);
+            // 
             // form1BindingSource
             // 
             this.form1BindingSource.DataSource = typeof(RiotAPI_ESavage.Form1);
@@ -147,10 +149,23 @@ namespace RiotAPI_ESavage
             // 
             this.programBindingSource.DataSource = typeof(RiotAPI_ESavage.Program);
             // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.ClashV1Button);
             this.Controls.Add(this.UsernameBar);
             this.Controls.Add(this.textBox1);
@@ -186,6 +201,8 @@ namespace RiotAPI_ESavage
         private System.Windows.Forms.DataGridViewTextBoxColumn revisionDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn summonerLevelDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button ClashV1Button;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
