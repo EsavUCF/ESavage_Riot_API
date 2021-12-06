@@ -28,10 +28,12 @@ namespace RiotAPI_ESavage
         private void GetAPIData_Click(object sender, EventArgs e)   //Move load into into click to give windowed response. 
         {
             WebClient client = new WebClient();
-            string json = client.DownloadString("https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/PKUltra?api_key=RGAPI-1714cac4-4d2b-4fcc-993c-e0859707d2d0");
+            string json = client.DownloadString(textBox1.Text);
             SummonerV4 summoner = JsonConvert.DeserializeObject<SummonerV4>(json);
+            string urlExtension = textBox1.Text.ToString();
+            MessageBox.Show(summoner.name, "API Data Collected!");
             dataGridView1.DataSource = summoner;
-            // MessageBox.Show(json);
+            MessageBox.Show(json);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
