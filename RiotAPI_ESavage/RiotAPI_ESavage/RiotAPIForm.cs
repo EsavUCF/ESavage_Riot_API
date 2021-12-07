@@ -56,5 +56,12 @@ namespace RiotAPI_ESavage
         {
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            string LoLStatus = client.DownloadString("https://na1.api.riotgames.com/lol/status/v3/shard-data?api_key=" + textBox2.Text);
+            MessageBox.Show(LoLStatus);
+        }
     }
 }
