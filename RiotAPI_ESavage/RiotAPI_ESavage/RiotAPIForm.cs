@@ -43,7 +43,7 @@ namespace RiotAPI_ESavage
         {
             WebClient client = new WebClient();
             string clashapi = client.DownloadString("https://" + RegionBox.Text + ".api.riotgames.com/lol/platform/v3/champion-rotations?api_key=" + APIKeyBox.Text);
-            MessageBox.Show(clashapi);
+            MessageBox.Show(clashapi, "Rotation Data");
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e) 
@@ -55,7 +55,7 @@ namespace RiotAPI_ESavage
         {
             WebClient client = new WebClient();
             string LoLStatus = client.DownloadString("https://" + RegionBox.Text + ".api.riotgames.com/lol/status/v3/shard-data?api_key=" + APIKeyBox.Text); //Esentially same workflow as Line 27, adds the user's string to the URL.
-            MessageBox.Show(LoLStatus);
+            MessageBox.Show(LoLStatus, "LoL Status:");
         }
 
         private void summonerV4BindingSource_CurrentChanged(object sender, EventArgs e)
