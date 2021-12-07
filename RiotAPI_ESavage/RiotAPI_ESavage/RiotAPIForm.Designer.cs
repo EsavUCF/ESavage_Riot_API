@@ -33,6 +33,14 @@ namespace RiotAPI_ESavage
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.GetAPIData = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.SummonerBox = new System.Windows.Forms.TextBox();
+            this.UsernameBar = new System.Windows.Forms.Label();
+            this.RotationButton = new System.Windows.Forms.Button();
+            this.APIKeyBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.LoLStatusButton = new System.Windows.Forms.Button();
+            this.RegionBox = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accountIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.puuidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,14 +49,8 @@ namespace RiotAPI_ESavage
             this.revisionDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.summonerLevelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.summonerV4BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.UsernameBar = new System.Windows.Forms.Label();
-            this.ClashV1Button = new System.Windows.Forms.Button();
             this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.summonerV4BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
@@ -77,6 +79,67 @@ namespace RiotAPI_ESavage
             this.dataGridView1.DataSource = this.summonerV4BindingSource;
             resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
+            // 
+            // SummonerBox
+            // 
+            resources.ApplyResources(this.SummonerBox, "SummonerBox");
+            this.SummonerBox.Name = "SummonerBox";
+            this.SummonerBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // UsernameBar
+            // 
+            resources.ApplyResources(this.UsernameBar, "UsernameBar");
+            this.UsernameBar.Name = "UsernameBar";
+            // 
+            // RotationButton
+            // 
+            resources.ApplyResources(this.RotationButton, "RotationButton");
+            this.RotationButton.Name = "RotationButton";
+            this.RotationButton.UseVisualStyleBackColor = true;
+            this.RotationButton.Click += new System.EventHandler(this.ClashV1Button_Click);
+            // 
+            // APIKeyBox
+            // 
+            resources.ApplyResources(this.APIKeyBox, "APIKeyBox");
+            this.APIKeyBox.Name = "APIKeyBox";
+            this.APIKeyBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // LoLStatusButton
+            // 
+            resources.ApplyResources(this.LoLStatusButton, "LoLStatusButton");
+            this.LoLStatusButton.Name = "LoLStatusButton";
+            this.LoLStatusButton.UseVisualStyleBackColor = true;
+            this.LoLStatusButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // RegionBox
+            // 
+            this.RegionBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RegionBox.FormattingEnabled = true;
+            this.RegionBox.Items.AddRange(new object[] {
+            resources.GetString("RegionBox.Items"),
+            resources.GetString("RegionBox.Items1"),
+            resources.GetString("RegionBox.Items2"),
+            resources.GetString("RegionBox.Items3"),
+            resources.GetString("RegionBox.Items4"),
+            resources.GetString("RegionBox.Items5"),
+            resources.GetString("RegionBox.Items6"),
+            resources.GetString("RegionBox.Items7"),
+            resources.GetString("RegionBox.Items8"),
+            resources.GetString("RegionBox.Items9"),
+            resources.GetString("RegionBox.Items10")});
+            resources.ApplyResources(this.RegionBox, "RegionBox");
+            this.RegionBox.Name = "RegionBox";
+            this.RegionBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -125,24 +188,6 @@ namespace RiotAPI_ESavage
             this.summonerV4BindingSource.DataSource = typeof(RiotAPI_ESavage.SummonerV4);
             this.summonerV4BindingSource.CurrentChanged += new System.EventHandler(this.summonerV4BindingSource_CurrentChanged);
             // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // UsernameBar
-            // 
-            resources.ApplyResources(this.UsernameBar, "UsernameBar");
-            this.UsernameBar.Name = "UsernameBar";
-            // 
-            // ClashV1Button
-            // 
-            resources.ApplyResources(this.ClashV1Button, "ClashV1Button");
-            this.ClashV1Button.Name = "ClashV1Button";
-            this.ClashV1Button.UseVisualStyleBackColor = true;
-            this.ClashV1Button.Click += new System.EventHandler(this.ClashV1Button_Click);
-            // 
             // form1BindingSource
             // 
             this.form1BindingSource.DataSource = typeof(RiotAPI_ESavage.Form1);
@@ -151,34 +196,18 @@ namespace RiotAPI_ESavage
             // 
             this.programBindingSource.DataSource = typeof(RiotAPI_ESavage.Program);
             // 
-            // textBox2
-            // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.RegionBox);
+            this.Controls.Add(this.LoLStatusButton);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.ClashV1Button);
+            this.Controls.Add(this.APIKeyBox);
+            this.Controls.Add(this.RotationButton);
             this.Controls.Add(this.UsernameBar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SummonerBox);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.GetAPIData);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -198,7 +227,7 @@ namespace RiotAPI_ESavage
 
         private System.Windows.Forms.Button GetAPIData;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox SummonerBox;
         private System.Windows.Forms.Label UsernameBar;
         private System.Windows.Forms.BindingSource summonerV4BindingSource;
         private System.Windows.Forms.BindingSource form1BindingSource;
@@ -210,10 +239,12 @@ namespace RiotAPI_ESavage
         private System.Windows.Forms.DataGridViewTextBoxColumn profileIconIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn revisionDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn summonerLevelDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Button ClashV1Button;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button RotationButton;
+        private System.Windows.Forms.TextBox APIKeyBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button LoLStatusButton;
+        private System.Windows.Forms.ComboBox RegionBox;
+        private System.Windows.Forms.Label label2;
     }
 }
 

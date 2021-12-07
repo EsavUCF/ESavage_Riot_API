@@ -145,7 +145,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GetAPIData.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="idDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>id</value>
@@ -193,28 +193,28 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="SummonerBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 598</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SummonerBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>403, 20</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="SummonerBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;SummonerBox.Name" xml:space="preserve">
+    <value>SummonerBox</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;SummonerBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;SummonerBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;SummonerBox.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="UsernameBar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -244,61 +244,55 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UsernameBar.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
-  <data name="ClashV1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="RotationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="ClashV1Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 471</value>
+  <data name="RotationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 467</value>
   </data>
-  <data name="ClashV1Button.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="RotationButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 23</value>
   </data>
-  <data name="ClashV1Button.TabIndex" type="System.Int32, mscorlib">
+  <data name="RotationButton.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="ClashV1Button.Text" xml:space="preserve">
+  <data name="RotationButton.Text" xml:space="preserve">
     <value>GET Champion Rotations.</value>
   </data>
-  <data name="&gt;&gt;ClashV1Button.Name" xml:space="preserve">
-    <value>ClashV1Button</value>
+  <data name="&gt;&gt;RotationButton.Name" xml:space="preserve">
+    <value>RotationButton</value>
   </data>
-  <data name="&gt;&gt;ClashV1Button.Type" xml:space="preserve">
+  <data name="&gt;&gt;RotationButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ClashV1Button.Parent" xml:space="preserve">
+  <data name="&gt;&gt;RotationButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ClashV1Button.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <metadata name="form1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="programBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>180, 17</value>
-  </metadata>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 549</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>403, 20</value>
-  </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;RotationButton.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
+  <data name="APIKeyBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 549</value>
   </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+  <data name="APIKeyBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 20</value>
+  </data>
+  <data name="APIKeyBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;APIKeyBox.Name" xml:space="preserve">
+    <value>APIKeyBox</value>
+  </data>
+  <data name="&gt;&gt;APIKeyBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;APIKeyBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;APIKeyBox.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -328,35 +322,125 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="LoLStatusButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 507</value>
+  <data name="LoLStatusButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 503</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="LoLStatusButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 23</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="LoLStatusButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="LoLStatusButton.Text" xml:space="preserve">
     <value>GET LoL Status.</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;LoLStatusButton.Name" xml:space="preserve">
+    <value>LoLStatusButton</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;LoLStatusButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;LoLStatusButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;LoLStatusButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RegionBox.Items" xml:space="preserve">
+    <value>NA1</value>
+  </data>
+  <data name="RegionBox.Items1" xml:space="preserve">
+    <value>BR1</value>
+  </data>
+  <data name="RegionBox.Items2" xml:space="preserve">
+    <value>LA1</value>
+  </data>
+  <data name="RegionBox.Items3" xml:space="preserve">
+    <value>LA2</value>
+  </data>
+  <data name="RegionBox.Items4" xml:space="preserve">
+    <value>JP1</value>
+  </data>
+  <data name="RegionBox.Items5" xml:space="preserve">
+    <value>EUN1</value>
+  </data>
+  <data name="RegionBox.Items6" xml:space="preserve">
+    <value>EUW1</value>
+  </data>
+  <data name="RegionBox.Items7" xml:space="preserve">
+    <value>KR</value>
+  </data>
+  <data name="RegionBox.Items8" xml:space="preserve">
+    <value>OC1</value>
+  </data>
+  <data name="RegionBox.Items9" xml:space="preserve">
+    <value>RU</value>
+  </data>
+  <data name="RegionBox.Items10" xml:space="preserve">
+    <value>TR1</value>
+  </data>
+  <data name="RegionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 483</value>
+  </data>
+  <data name="RegionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 21</value>
+  </data>
+  <data name="RegionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;RegionBox.Name" xml:space="preserve">
+    <value>RegionBox</value>
+  </data>
+  <data name="&gt;&gt;RegionBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegionBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RegionBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 467</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Select a Region</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="form1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="programBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -368,6 +452,9 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>427, 620</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
