@@ -123,6 +123,7 @@ namespace RiotAPI_ESavage
             // summonerV4BindingSource
             // 
             this.summonerV4BindingSource.DataSource = typeof(RiotAPI_ESavage.SummonerV4);
+            this.summonerV4BindingSource.CurrentChanged += new System.EventHandler(this.summonerV4BindingSource_CurrentChanged);
             // 
             // textBox1
             // 
